@@ -46,6 +46,7 @@ int main(int argc, char *argv[])
     //FILE *file_ptr = fopen("test-a.input","r");
     char line_buffer[512]; // hold lines read
     char compare_buffer[2]; // holds single chars for comparison
+    struct Cell cells[8];
     int row = 0;
     int arr[512][512]; 
     int arr_next[512][512]; 
